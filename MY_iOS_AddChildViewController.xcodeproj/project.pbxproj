@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41C09BE81E02854A007E091B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C09BE71E02854A007E091B /* main.m */; };
+		41C09BEB1E02854A007E091B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C09BEA1E02854A007E091B /* AppDelegate.m */; };
+		41C09BEE1E02854A007E091B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C09BED1E02854A007E091B /* ViewController.m */; };
+		41C09BF11E02854A007E091B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C09BEF1E02854A007E091B /* Main.storyboard */; };
+		41C09BF31E02854A007E091B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41C09BF21E02854A007E091B /* Assets.xcassets */; };
+		41C09BF61E02854A007E091B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C09BF41E02854A007E091B /* LaunchScreen.storyboard */; };
+		41C09C011E02854A007E091B /* MY_iOS_AddChildViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C09C001E02854A007E091B /* MY_iOS_AddChildViewControllerTests.m */; };
+		41C09C0C1E02854A007E091B /* MY_iOS_AddChildViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C09C0B1E02854A007E091B /* MY_iOS_AddChildViewControllerUITests.m */; };
+		41C09C241E02856F007E091B /* AllTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C09C1B1E02856F007E091B /* AllTableViewController.m */; };
+		41C09C251E02856F007E091B /* JokeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C09C1D1E02856F007E091B /* JokeTableViewController.m */; };
+		41C09C261E02856F007E091B /* PictureTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C09C1F1E02856F007E091B /* PictureTableViewController.m */; };
+		41C09C271E02856F007E091B /* SoundTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C09C211E02856F007E091B /* SoundTableViewController.m */; };
+		41C09C281E02856F007E091B /* VideoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C09C231E02856F007E091B /* VideoTableViewController.m */; };
+		41C09C2E1E0285FC007E091B /* MYTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C09C2D1E0285FC007E091B /* MYTitleButton.m */; };
+		41C09C311E02869F007E091B /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C09C301E02869F007E091B /* UIView+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41C09BFD1E02854A007E091B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41C09BDB1E02854A007E091B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41C09BE21E02854A007E091B;
+			remoteInfo = MY_iOS_AddChildViewController;
+		};
+		41C09C081E02854A007E091B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41C09BDB1E02854A007E091B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41C09BE21E02854A007E091B;
+			remoteInfo = MY_iOS_AddChildViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41C09BE31E02854A007E091B /* MY_iOS_AddChildViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MY_iOS_AddChildViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C09BE71E02854A007E091B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41C09BE91E02854A007E091B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41C09BEA1E02854A007E091B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41C09BEC1E02854A007E091B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		41C09BED1E02854A007E091B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		41C09BF01E02854A007E091B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41C09BF21E02854A007E091B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41C09BF51E02854A007E091B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41C09BF71E02854A007E091B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41C09BFC1E02854A007E091B /* MY_iOS_AddChildViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MY_iOS_AddChildViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C09C001E02854A007E091B /* MY_iOS_AddChildViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MY_iOS_AddChildViewControllerTests.m; sourceTree = "<group>"; };
+		41C09C021E02854A007E091B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41C09C071E02854A007E091B /* MY_iOS_AddChildViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MY_iOS_AddChildViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C09C0B1E02854A007E091B /* MY_iOS_AddChildViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MY_iOS_AddChildViewControllerUITests.m; sourceTree = "<group>"; };
+		41C09C0D1E02854A007E091B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41C09C1A1E02856F007E091B /* AllTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllTableViewController.h; sourceTree = "<group>"; };
+		41C09C1B1E02856F007E091B /* AllTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllTableViewController.m; sourceTree = "<group>"; };
+		41C09C1C1E02856F007E091B /* JokeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JokeTableViewController.h; sourceTree = "<group>"; };
+		41C09C1D1E02856F007E091B /* JokeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokeTableViewController.m; sourceTree = "<group>"; };
+		41C09C1E1E02856F007E091B /* PictureTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureTableViewController.h; sourceTree = "<group>"; };
+		41C09C1F1E02856F007E091B /* PictureTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureTableViewController.m; sourceTree = "<group>"; };
+		41C09C201E02856F007E091B /* SoundTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundTableViewController.h; sourceTree = "<group>"; };
+		41C09C211E02856F007E091B /* SoundTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundTableViewController.m; sourceTree = "<group>"; };
+		41C09C221E02856F007E091B /* VideoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoTableViewController.h; sourceTree = "<group>"; };
+		41C09C231E02856F007E091B /* VideoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoTableViewController.m; sourceTree = "<group>"; };
+		41C09C2C1E0285FC007E091B /* MYTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYTitleButton.h; sourceTree = "<group>"; };
+		41C09C2D1E0285FC007E091B /* MYTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYTitleButton.m; sourceTree = "<group>"; };
+		41C09C2F1E02869F007E091B /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		41C09C301E02869F007E091B /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41C09BE01E02854A007E091B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41C09BF91E02854A007E091B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41C09C041E02854A007E091B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41C09BDA1E02854A007E091B = {
+			isa = PBXGroup;
+			children = (
+				41C09BE51E02854A007E091B /* MY_iOS_AddChildViewController */,
+				41C09BFF1E02854A007E091B /* MY_iOS_AddChildViewControllerTests */,
+				41C09C0A1E02854A007E091B /* MY_iOS_AddChildViewControllerUITests */,
+				41C09BE41E02854A007E091B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41C09BE41E02854A007E091B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41C09BE31E02854A007E091B /* MY_iOS_AddChildViewController.app */,
+				41C09BFC1E02854A007E091B /* MY_iOS_AddChildViewControllerTests.xctest */,
+				41C09C071E02854A007E091B /* MY_iOS_AddChildViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41C09BE51E02854A007E091B /* MY_iOS_AddChildViewController */ = {
+			isa = PBXGroup;
+			children = (
+				41C09C2F1E02869F007E091B /* UIView+Extension.h */,
+				41C09C301E02869F007E091B /* UIView+Extension.m */,
+				41C09C191E028565007E091B /* ChildViewController */,
+				41C09BE91E02854A007E091B /* AppDelegate.h */,
+				41C09BEA1E02854A007E091B /* AppDelegate.m */,
+				41C09BEC1E02854A007E091B /* ViewController.h */,
+				41C09BED1E02854A007E091B /* ViewController.m */,
+				41C09BEF1E02854A007E091B /* Main.storyboard */,
+				41C09BF21E02854A007E091B /* Assets.xcassets */,
+				41C09BF41E02854A007E091B /* LaunchScreen.storyboard */,
+				41C09BF71E02854A007E091B /* Info.plist */,
+				41C09BE61E02854A007E091B /* Supporting Files */,
+			);
+			path = MY_iOS_AddChildViewController;
+			sourceTree = "<group>";
+		};
+		41C09BE61E02854A007E091B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41C09BE71E02854A007E091B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41C09BFF1E02854A007E091B /* MY_iOS_AddChildViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				41C09C001E02854A007E091B /* MY_iOS_AddChildViewControllerTests.m */,
+				41C09C021E02854A007E091B /* Info.plist */,
+			);
+			path = MY_iOS_AddChildViewControllerTests;
+			sourceTree = "<group>";
+		};
+		41C09C0A1E02854A007E091B /* MY_iOS_AddChildViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41C09C0B1E02854A007E091B /* MY_iOS_AddChildViewControllerUITests.m */,
+				41C09C0D1E02854A007E091B /* Info.plist */,
+			);
+			path = MY_iOS_AddChildViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		41C09C191E028565007E091B /* ChildViewController */ = {
+			isa = PBXGroup;
+			children = (
+				41C09C2C1E0285FC007E091B /* MYTitleButton.h */,
+				41C09C2D1E0285FC007E091B /* MYTitleButton.m */,
+				41C09C1A1E02856F007E091B /* AllTableViewController.h */,
+				41C09C1B1E02856F007E091B /* AllTableViewController.m */,
+				41C09C1C1E02856F007E091B /* JokeTableViewController.h */,
+				41C09C1D1E02856F007E091B /* JokeTableViewController.m */,
+				41C09C1E1E02856F007E091B /* PictureTableViewController.h */,
+				41C09C1F1E02856F007E091B /* PictureTableViewController.m */,
+				41C09C201E02856F007E091B /* SoundTableViewController.h */,
+				41C09C211E02856F007E091B /* SoundTableViewController.m */,
+				41C09C221E02856F007E091B /* VideoTableViewController.h */,
+				41C09C231E02856F007E091B /* VideoTableViewController.m */,
+			);
+			name = ChildViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41C09BE21E02854A007E091B /* MY_iOS_AddChildViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41C09C101E02854A007E091B /* Build configuration list for PBXNativeTarget "MY_iOS_AddChildViewController" */;
+			buildPhases = (
+				41C09BDF1E02854A007E091B /* Sources */,
+				41C09BE01E02854A007E091B /* Frameworks */,
+				41C09BE11E02854A007E091B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MY_iOS_AddChildViewController;
+			productName = MY_iOS_AddChildViewController;
+			productReference = 41C09BE31E02854A007E091B /* MY_iOS_AddChildViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41C09BFB1E02854A007E091B /* MY_iOS_AddChildViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41C09C131E02854A007E091B /* Build configuration list for PBXNativeTarget "MY_iOS_AddChildViewControllerTests" */;
+			buildPhases = (
+				41C09BF81E02854A007E091B /* Sources */,
+				41C09BF91E02854A007E091B /* Frameworks */,
+				41C09BFA1E02854A007E091B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41C09BFE1E02854A007E091B /* PBXTargetDependency */,
+			);
+			name = MY_iOS_AddChildViewControllerTests;
+			productName = MY_iOS_AddChildViewControllerTests;
+			productReference = 41C09BFC1E02854A007E091B /* MY_iOS_AddChildViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41C09C061E02854A007E091B /* MY_iOS_AddChildViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41C09C161E02854A007E091B /* Build configuration list for PBXNativeTarget "MY_iOS_AddChildViewControllerUITests" */;
+			buildPhases = (
+				41C09C031E02854A007E091B /* Sources */,
+				41C09C041E02854A007E091B /* Frameworks */,
+				41C09C051E02854A007E091B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41C09C091E02854A007E091B /* PBXTargetDependency */,
+			);
+			name = MY_iOS_AddChildViewControllerUITests;
+			productName = MY_iOS_AddChildViewControllerUITests;
+			productReference = 41C09C071E02854A007E091B /* MY_iOS_AddChildViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41C09BDB1E02854A007E091B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = com.gzkiwi.yinpubaoblue;
+				TargetAttributes = {
+					41C09BE21E02854A007E091B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					41C09BFB1E02854A007E091B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 41C09BE21E02854A007E091B;
+					};
+					41C09C061E02854A007E091B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 41C09BE21E02854A007E091B;
+					};
+				};
+			};
+			buildConfigurationList = 41C09BDE1E02854A007E091B /* Build configuration list for PBXProject "MY_iOS_AddChildViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41C09BDA1E02854A007E091B;
+			productRefGroup = 41C09BE41E02854A007E091B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41C09BE21E02854A007E091B /* MY_iOS_AddChildViewController */,
+				41C09BFB1E02854A007E091B /* MY_iOS_AddChildViewControllerTests */,
+				41C09C061E02854A007E091B /* MY_iOS_AddChildViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41C09BE11E02854A007E091B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C09BF61E02854A007E091B /* LaunchScreen.storyboard in Resources */,
+				41C09BF31E02854A007E091B /* Assets.xcassets in Resources */,
+				41C09BF11E02854A007E091B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41C09BFA1E02854A007E091B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41C09C051E02854A007E091B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41C09BDF1E02854A007E091B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C09C311E02869F007E091B /* UIView+Extension.m in Sources */,
+				41C09C2E1E0285FC007E091B /* MYTitleButton.m in Sources */,
+				41C09BEE1E02854A007E091B /* ViewController.m in Sources */,
+				41C09BEB1E02854A007E091B /* AppDelegate.m in Sources */,
+				41C09C251E02856F007E091B /* JokeTableViewController.m in Sources */,
+				41C09C281E02856F007E091B /* VideoTableViewController.m in Sources */,
+				41C09C271E02856F007E091B /* SoundTableViewController.m in Sources */,
+				41C09BE81E02854A007E091B /* main.m in Sources */,
+				41C09C261E02856F007E091B /* PictureTableViewController.m in Sources */,
+				41C09C241E02856F007E091B /* AllTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41C09BF81E02854A007E091B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C09C011E02854A007E091B /* MY_iOS_AddChildViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41C09C031E02854A007E091B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C09C0C1E02854A007E091B /* MY_iOS_AddChildViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41C09BFE1E02854A007E091B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41C09BE21E02854A007E091B /* MY_iOS_AddChildViewController */;
+			targetProxy = 41C09BFD1E02854A007E091B /* PBXContainerItemProxy */;
+		};
+		41C09C091E02854A007E091B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41C09BE21E02854A007E091B /* MY_iOS_AddChildViewController */;
+			targetProxy = 41C09C081E02854A007E091B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41C09BEF1E02854A007E091B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41C09BF01E02854A007E091B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41C09BF41E02854A007E091B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41C09BF51E02854A007E091B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41C09C0E1E02854A007E091B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41C09C0F1E02854A007E091B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41C09C111E02854A007E091B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MY_iOS_AddChildViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yingegou.MY-iOS-AddChildViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		41C09C121E02854A007E091B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MY_iOS_AddChildViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yingegou.MY-iOS-AddChildViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		41C09C141E02854A007E091B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MY_iOS_AddChildViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yingegou.MY-iOS-AddChildViewControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MY_iOS_AddChildViewController.app/MY_iOS_AddChildViewController";
+			};
+			name = Debug;
+		};
+		41C09C151E02854A007E091B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MY_iOS_AddChildViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yingegou.MY-iOS-AddChildViewControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MY_iOS_AddChildViewController.app/MY_iOS_AddChildViewController";
+			};
+			name = Release;
+		};
+		41C09C171E02854A007E091B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MY_iOS_AddChildViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yingegou.MY-iOS-AddChildViewControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MY_iOS_AddChildViewController;
+			};
+			name = Debug;
+		};
+		41C09C181E02854A007E091B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MY_iOS_AddChildViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yingegou.MY-iOS-AddChildViewControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MY_iOS_AddChildViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41C09BDE1E02854A007E091B /* Build configuration list for PBXProject "MY_iOS_AddChildViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C09C0E1E02854A007E091B /* Debug */,
+				41C09C0F1E02854A007E091B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41C09C101E02854A007E091B /* Build configuration list for PBXNativeTarget "MY_iOS_AddChildViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C09C111E02854A007E091B /* Debug */,
+				41C09C121E02854A007E091B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		41C09C131E02854A007E091B /* Build configuration list for PBXNativeTarget "MY_iOS_AddChildViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C09C141E02854A007E091B /* Debug */,
+				41C09C151E02854A007E091B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		41C09C161E02854A007E091B /* Build configuration list for PBXNativeTarget "MY_iOS_AddChildViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C09C171E02854A007E091B /* Debug */,
+				41C09C181E02854A007E091B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41C09BDB1E02854A007E091B /* Project object */;
+}
